@@ -27,6 +27,13 @@
 ];
 
 var almacenSeleccionado;
+function DeleteItems(posicion) {
+    debugger;
+    var item = coleccionAlamacenes[almacenSeleccionado].items[posicion];
+    coleccionAlamacenes[almacenSeleccionado].items.splice(posicion,1);
+    RefreshAlmacenes();
+    ShowItems(almacenSeleccionado);
+}
 
 function ShowItems(posicion) {
     $("#itemsSection").show();
@@ -56,6 +63,13 @@ function ShowItems(posicion) {
         var tdCantidad = document.createElement('td');
         tdCantidad.textContent = listaItems[i].Cantidad;
         tr.appendChild(tdCantidad);
+
+        var tdDelete = document.createElement('td');
+        var linkDelete = document.createElement('a');
+        linkDelete.href = 'javascript:DeleteItems(' + i + ');';
+        linkDelete.text = "Borrar";
+        tdDelete.append(linkDelete);
+        tr.appendChild(tdDelete);
         
         $('#itemsTable').append(tr);
     }
@@ -83,7 +97,7 @@ function RefreshAlmacenes() {
         var tdItems = document.createElement('td');
         var numeroElementos = coleccionAlamacenes[i].items.length;
         tdItems.textContent = numeroElementos;
-        tr.appendChild(tdItems);
+        tr.appendChild(tdItems);        
         $('#almacenesTable').append(tr);
     }
 }
@@ -117,6 +131,7 @@ $(document).ready(function () {
         coleccionAlamacenes[almacenSeleccionado].items.push(item);
         // TODO: Refrescar la tabla de Items.
         ShowItems(almacenSeleccionado);
+        RefreshAlmacenes();
     });
     $("#nuevoAlmacen").click(function () {
         $("#formAlmacen").show();
