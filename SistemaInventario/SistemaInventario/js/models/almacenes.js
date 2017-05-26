@@ -3,7 +3,7 @@
         var Almacen = function () {
             this.nombre = "";
             this.lugar = "";
-            this.items = {};
+            this.items = [];
         }
 
         //Almacen.prototype.greet = function () {

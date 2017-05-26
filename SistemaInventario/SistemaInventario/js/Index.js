@@ -27,12 +27,13 @@
 ];
 
 function ShowItems(posicion) {
+    $("#itemsSection").show();
     var almacen = coleccionAlamacenes[posicion];
     var nombre = almacen.nombre;
     var listaItems = almacen.items;
     // Ctrl + F5;
     $('#titulo').text("Items de Almacen " + nombre);
-    $('#itemsTable > tbody > tr > td').remove();
+    $('#itemsTable > tbody > tr').remove();
     for (var i = 0; i < listaItems.length; i++) {
         var tr = document.createElement('tr');
 
@@ -57,7 +58,8 @@ function ShowItems(posicion) {
     }
 }
 
-$(document).ready(function () {
+function RefreshAlmacenes() {
+    $("#almacenesTable > tbody > tr").remove();
 
     for (var i = 0; i < coleccionAlamacenes.length; i++) {
         var tr = document.createElement('tr');
@@ -66,7 +68,7 @@ $(document).ready(function () {
 
         var link = document.createElement('a');
         //link.setAttribute('href', );
-        link.href = 'javascript:ShowItems('+i+');';
+        link.href = 'javascript:ShowItems(' + i + ');';
         link.text = coleccionAlamacenes[i].nombre;
         tdNombre.append(link);
         tr.appendChild(tdNombre);
@@ -81,6 +83,41 @@ $(document).ready(function () {
         tr.appendChild(tdItems);
         $('#almacenesTable').append(tr);
     }
+}
+
+$(document).ready(function () {
+    $("#itemsSection").hide();
+    $("#formAlmacen").hide();
+    $("#formItem").hide();
+
+    $("#crearAlmacen").click(function () {
+        $("#formAlmacen").toggle();
+        var almacen = new Almacenes();
+        almacen.nombre = $("#nombreAlmacen").val();
+        almacen.lugar = $("#lugarAlmacen").val();
+        almacen.items = [];
+        coleccionAlamacenes.push(almacen);
+        RefreshAlmacenes();
+        $("#nombreAlmacen").val("");
+        $("#lugarAlmacen").val("");
+
+    });
+    $("#crearItem").click(function () {
+        $("#formItem").toggle();
+        // TODO: Crear objetos items aca.
+    });
+    $("#nuevoAlmacen").click(function () {
+        $("#formAlmacen").show();
+        $("#itemsSection").hide();
+        $("#formItem").hide();
+    });
+    $("#nuevoItem").click(function () {
+        $("#formAlmacen").hide();
+        $("#itemsSection").hide();
+        $("#formItem").show();
+    });
+
+    RefreshAlmacenes();
 
 });
 

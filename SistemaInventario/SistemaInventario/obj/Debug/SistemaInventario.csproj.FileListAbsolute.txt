@@ -32,3 +32,37 @@ c:\users\mfrch\documents\visual studio 2017\Projects\SistemaInventario\SistemaIn
 c:\users\mfrch\documents\visual studio 2017\Projects\SistemaInventario\SistemaInventario\obj\Debug\SistemaInventario.csprojResolveAssemblyReference.cache
 c:\users\mfrch\documents\visual studio 2017\Projects\SistemaInventario\SistemaInventario\obj\Debug\SistemaInventario.dll
 c:\users\mfrch\documents\visual studio 2017\Projects\SistemaInventario\SistemaInventario\obj\Debug\SistemaInventario.pdb
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\csc.exe
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\csc.exe.config
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\csc.rsp
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\csi.exe
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\csi.rsp
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\System.AppContext.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\System.Collections.Immutable.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\System.IO.FileSystem.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\System.Reflection.Metadata.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\vbc.exe
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\vbc.exe.config
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\vbc.rsp
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\VBCSCompiler.exe
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\roslyn\VBCSCompiler.exe.config
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\SistemaInventario.dll.config
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\SistemaInventario.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\SistemaInventario.pdb
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\obj\Debug\SistemaInventario.csprojResolveAssemblyReference.cache
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\obj\Debug\SistemaInventario.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\obj\Debug\SistemaInventario.pdb
