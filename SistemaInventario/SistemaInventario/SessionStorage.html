@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <input type="text" id="session1" onblur="guardarSession()" />
+        <input type="text" id="session2" onblur="guardarSession()" />
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js" type="text/javascript"></script>
+
+    <script>
+        $(document).ready(function () {
+            cargarSession();
+        });
+
+        function cargarSession() {
+            $('#session1').val(sessionStorage.getItem("key1"));
+            $('#session2').val(sessionStorage.getItem("key2"));
+            alert("Se cargaron los datos");
+        }
+        function guardarSession() {
+            sessionStorage.setItem("key1", $('#session1').val());
+            sessionStorage.setItem("key2", $('#session2').val());
+        }
+    </script>
+</body>
+</html>

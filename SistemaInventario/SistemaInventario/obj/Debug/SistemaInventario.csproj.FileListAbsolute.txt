@@ -66,3 +66,5 @@ C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\Micros
 C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\obj\Debug\SistemaInventario.csprojResolveAssemblyReference.cache
 C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\obj\Debug\SistemaInventario.dll
 C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\obj\Debug\SistemaInventario.pdb
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\log4net.dll
+C:\Workspaces\Lourtec\Trujillo480\SistemaInventario\SistemaInventario\bin\log4net.xml

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <input type="text" id="local1" onblur="guardarLocal()" />
+        <input type="text" id="local2" onblur="guardarLocal()" />
+        <p id="status"></p>
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js" type="text/javascript"></script>
+
+    <script>
+        $(document).ready(function () {
+            cargarLocal();
+            window.addEventListener("storage",
+                function (e) {
+                    alert("Actualizado el storage");
+                    $("#status").text("Key:" + e.key + " newValue:" + e.newValue +
+                        " oldValue:" + e.oldValue + " url:" + e.url + " storageArea:" +
+                        e.storageArea);
+                }, true);
+        });
+
+        function cargarLocal() {
+            $('#local1').val(localStorage.getItem("key1"));
+            $('#local2').val(localStorage.getItem("key2"));
+            alert("Se cargaron los datos");
+        }
+        function guardarLocal() {
+            localStorage.setItem("key1", $('#local1').val());
+            localStorage.setItem("key2", $('#local2').val());
+        }
+    </script>
+</body>
+</html>
